@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCart">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_weight="1"
+        android:text="Preview of Order(s)"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginBottom="60dp"
+        android:hint="ITEMS here!"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/priceView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="60dp"
+        android:hint="Price Here!"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:onClick="check_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Check Out" />
+
+</LinearLayout>
